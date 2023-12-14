@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+body{
+    background-color: #F7F7F7;
+}
+header{
+    height: 100px;
+    display: flex;
+    background-color: #F7F7F7;
+    justify-content: center;
+    font-family: "Noto Sans KR" , sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    color:#404040;
+}
+
+a :link{color: #404040;}
+a :hover{color: #B00512;}
+a :active{color: #B00512;}
+a :visited{color: #4D4D4D;}
+
+nav{
+    background-color: #F7F7F7;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px #4D4D4D;
+    border-width: 30%;
+}
+
+nav ul{
+    width: 1100px;
+    height: 80px;
+    display: flex;
+    background-color: #F7F7F7;
+    justify-content: space-between;
+    letter-spacing: -0.4px;
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    border-bottom: 2px;
+}
+
+.wrap0{width: 1100px;  margin: 0 auto; position: relative;}
+
+.box0{
+    
+    height: 718px;
+    width: 1100px;
+    background-image: url(img/philosophy.01.png);
+}
+.box1{
+    height: 592px;
+    width: 1100px;
+    border-bottom: solid 1px ;
+    color: #5a5a5a;
+   
+}
+.box1 img{
+    float: right;
+}
+.box1 p {
+    width: 275px;
+    height: 200px;
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: 800;
+    font-size: 5em;
+    color: #FF9823;
+    position: absolute;
+    transform:  translateY(100%);
+}
+.lightText{
+    
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em; 
+    text-align: left; 
+    position: absolute;
+    transform:  translateY(500%);   
+}
+.hr{
+    width: 1100px;
+    color: #4D4D4D;
+    height: 1px;
+}
+.box2{
+    height: 702px;
+    width: 1100px;
+    font-family:"Noto Sans KR", sans-serif;
+    
+   
+}
+.box2 img{
+    margin-right: 72px;
+    float: left;
+}
+.box2 p{
+    width: 420px;
+    height: 121px;
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: 800;
+    font-size: 5em;
+    color:#B00512;
+    position: absolute;
+    transform:  translateY(400%) translateX(160%); 
+}
+.CantileverText{
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: right;
+    color: #1A295B;
+    position: absolute;
+    transform:  translateY(850%) translateX(285%);
+}
+.box3{
+    height: 800px;
+    width: 1100px;
+    background-position-x: center;
+    margin-top: 100px;
+    background-image: url(img/philosophy.04.png);
+    background-repeat: no-repeat;
+}
+.box3 p {
+    width: 800px;
+    height: 200px;
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: 800;
+    font-size: 5em;
+    color: #1A295B;
+    position: absolute;
+    transform:  translateY(250%) translateX(30%);
+}
+.OrganicText{
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: center;
+    position: absolute;
+    transform:  translateY(900%) translateX(125%);
+}
+
+.box4 img{
+    margin: 144px 0px 20px;
+}
+.box4 p{
+    margin: 20px;
+    text-align: center;
+    font-family:"Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #1A295B;   
+}
+
+footer{
+    
+    height: 80px;
+    display: flex;
+    background-color: black;
+    color: white;
+    
+    
+}
+h4{
+  padding-top: 25px;
+    margin: 0 auto;
+}
+
